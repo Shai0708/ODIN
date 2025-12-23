@@ -20,3 +20,10 @@
     "vite": "^6.2.0"
   }
 }
+{
+  "overrides": {
+    "framer-motion": {
+      "react": "^19.0.0"
+    }
+  }
+}
