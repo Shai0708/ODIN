@@ -802,13 +802,15 @@ export const slides: SlideData[] = [
   {
     id: 34,
     chapter: "Closing",
-    title: "Thesis Defense 2025: Q&A",
+    title: "Thesis Defense 2024: Q&A",
     content: (
       <div className="flex flex-col items-center justify-center h-full text-center space-y-12">
         <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }} className="relative">
            <div className="absolute inset-0 bg-blue-500/10 rounded-full blur-[100px]"></div>
            <h3 className="text-7xl md:text-9xl lg:text-[11rem] font-black text-white relative tracking-tighter uppercase leading-none">Thank You</h3>
         </motion.div>
+        <div className="space-y-6 opacity-80">
+          
           <div className="h-2 w-64 bg-blue-600 mx-auto rounded-full"></div>
           <p className="text-lg md:text-2xl text-blue-500 font-mono tracking-widest uppercase font-black">ODIN Research Team | Bicol University Polangui</p>
         </div>
