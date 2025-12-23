@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -14,29 +13,29 @@ const ConceptualFramework: React.FC = () => {
         {/* INPUT COLUMN */}
         <motion.div 
           variants={cardVariants}
-          className="border-2 border-white/60 rounded-none p-4 bg-black/40 text-white flex flex-col gap-3 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
+          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
         >
-          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.2em] border-b-2 border-white/20 pb-2 flex-none">Input</h3>
-          <div className="flex-1 text-[11px] md:text-xs space-y-3 font-sans leading-tight overflow-y-auto custom-scrollbar pr-1">
+          <h3 className="text-base md:text-lg font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Input</h3>
+          <div className="flex-1 text-[11px] md:text-xs space-y-2 font-sans leading-tight overflow-y-auto custom-scrollbar pr-1">
             <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-1 uppercase tracking-tighter">Sensor Inputs</p>
-              <ul className="list-disc pl-4 space-y-1 text-gray-300">
+              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-[10px]">Sensor Inputs</p>
+              <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
                 <li>Smartphone Camera</li>
                 <li>Ultrasonic Sensors (HC-SR04 Array, BLE)</li>
                 <li>Integrated (GPS, Accel, Compass, Gyro)</li>
               </ul>
             </div>
             <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-1 uppercase tracking-tighter">User Inputs</p>
-              <ul className="list-disc pl-4 space-y-1 text-gray-300">
+              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-[10px]">User Inputs</p>
+              <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
                 <li>Voice Commands / Requests</li>
                 <li>System Control & Settings</li>
                 <li>Gesture, Touch, Physical Manipulation</li>
               </ul>
             </div>
             <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-1 uppercase tracking-tighter">Context</p>
-              <ul className="list-disc pl-4 space-y-1 text-gray-300">
+              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-[10px]">Context</p>
+              <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
                 <li>Location, Environment, Weather, Acoustic</li>
               </ul>
             </div>
@@ -46,14 +45,14 @@ const ConceptualFramework: React.FC = () => {
         {/* PROCESS COLUMN */}
         <motion.div 
           variants={cardVariants}
-          className="border-2 border-white/60 rounded-none p-4 bg-black/40 text-white flex flex-col gap-3 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
+          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
         >
-          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.2em] border-b-2 border-white/20 pb-2 flex-none">Process</h3>
-          <div className="flex-1 text-[11px] md:text-xs space-y-3 font-sans leading-tight overflow-y-auto custom-scrollbar pr-1">
+          <h3 className="text-base md:text-lg font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Process</h3>
+          <div className="flex-1 text-[11px] md:text-xs space-y-2 font-sans leading-tight overflow-y-auto custom-scrollbar pr-1">
             <div className="text-center mb-1">
-              <p className="font-black text-emerald-400 uppercase text-base">RAD Lifecycle</p>
+              <p className="font-black text-emerald-400 uppercase text-sm">RAD Lifecycle</p>
             </div>
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
                 <span className="font-black text-white block uppercase text-[10px]">Phase 1: Planning</span>
                 <span className="text-gray-400">Stakeholder analysis and user needs.</span>
@@ -77,9 +76,9 @@ const ConceptualFramework: React.FC = () => {
         {/* OUTPUT COLUMN */}
         <motion.div 
           variants={cardVariants}
-          className="border-2 border-white/60 rounded-none p-4 bg-black/40 text-white flex flex-col gap-3 shadow-[4px_4px_0px_rgba(255,255,255,0.15)]"
+          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)]"
         >
-          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.2em] border-b-2 border-white/20 pb-2">Output</h3>
+          <h3 className="text-base md:text-lg font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5">Output</h3>
           <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
             <motion.div 
               animate={{ scale: [1, 1.02, 1] }}
