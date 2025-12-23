@@ -15,10 +15,10 @@ const ConceptualFramework: React.FC = () => {
           variants={cardVariants}
           className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
         >
-          <h3 className="text-base md:text-lg font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Input</h3>
-          <div className="flex-1 text-[11px] md:text-xs space-y-2 font-sans leading-tight overflow-y-auto custom-scrollbar pr-1">
+          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Input</h3>
+          <div className="flex-1 text-xs md:text-sm space-y-2 font-sans leading-relaxed overflow-y-auto custom-scrollbar pr-1">
             <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-[10px]">Sensor Inputs</p>
+              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-xs">Sensor Inputs</p>
               <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
                 <li>Smartphone Camera</li>
                 <li>Ultrasonic Sensors (HC-SR04 Array, BLE)</li>
@@ -26,7 +26,7 @@ const ConceptualFramework: React.FC = () => {
               </ul>
             </div>
             <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-[10px]">User Inputs</p>
+              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-xs">User Inputs</p>
               <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
                 <li>Voice Commands / Requests</li>
                 <li>System Control & Settings</li>
@@ -34,7 +34,7 @@ const ConceptualFramework: React.FC = () => {
               </ul>
             </div>
             <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-[10px]">Context</p>
+              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-xs">Context</p>
               <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
                 <li>Location, Environment, Weather, Acoustic</li>
               </ul>
@@ -47,22 +47,22 @@ const ConceptualFramework: React.FC = () => {
           variants={cardVariants}
           className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
         >
-          <h3 className="text-base md:text-lg font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Process</h3>
-          <div className="flex-1 text-[11px] md:text-xs space-y-2 font-sans leading-tight overflow-y-auto custom-scrollbar pr-1">
+          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Process</h3>
+          <div className="flex-1 text-xs md:text-sm space-y-2 font-sans leading-relaxed overflow-y-auto custom-scrollbar pr-1">
             <div className="text-center mb-1">
-              <p className="font-black text-emerald-400 uppercase text-sm">RAD Lifecycle</p>
+              <p className="font-black text-emerald-400 uppercase text-base md:text-lg">RAD Lifecycle</p>
             </div>
             <ul className="space-y-1.5">
               <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
-                <span className="font-black text-white block uppercase text-[10px]">Phase 1: Planning</span>
+                <span className="font-black text-white block uppercase text-xs">Phase 1: Planning</span>
                 <span className="text-gray-400">Stakeholder analysis and user needs.</span>
               </li>
               <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
-                <span className="font-black text-white block uppercase text-[10px]">Phase 2: User Design</span>
+                <span className="font-black text-white block uppercase text-xs">Phase 2: User Design</span>
                 <span className="text-gray-400">Iterative prototyping and design sessions.</span>
               </li>
               <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
-                <span className="font-black text-white block uppercase text-[10px]">Phase 3: Construction</span>
+                <span className="font-black text-white block uppercase text-xs">Phase 3: Construction</span>
                 <span className="text-gray-400">Sensor integration and algorithm build.</span>
               </li>
               <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
