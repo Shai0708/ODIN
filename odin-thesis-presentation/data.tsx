@@ -24,7 +24,7 @@ export const slides: SlideData[] = [
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.7 }} className="text-lg md:text-2xl text-gray-200 font-bold leading-relaxed max-w-4xl mx-auto px-4">An Edge-AI Multi-Sensory Approach to Autonomous Pedestrian Navigation in Complex Urban Environments</motion.p>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9 }} className="pt-6 text-gray-500 text-xs md:text-sm font-black border-t border-gray-900 mt-4">
             Bachelor of Science in Computer Science <br/>
-            Bicol University Polangui | Academic Year 2023-2024
+            Bicol University Polangui | Academic Year 2024-2025
           </motion.div>
         </div>
       </div>
@@ -802,22 +802,20 @@ export const slides: SlideData[] = [
   {
     id: 34,
     chapter: "Closing",
-    title: "Thesis Defense 2024: Q&A",
+    title: "Thesis Defense 2025: Q&A",
     content: (
       <div className="flex flex-col items-center justify-center h-full text-center space-y-12">
         <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }} className="relative">
            <div className="absolute inset-0 bg-blue-500/10 rounded-full blur-[100px]"></div>
            <h3 className="text-7xl md:text-9xl lg:text-[11rem] font-black text-white relative tracking-tighter uppercase leading-none">Thank You</h3>
         </motion.div>
-        <div className="space-y-6 opacity-80">
-          <p className="text-xl md:text-4xl text-gray-400 uppercase tracking-[0.5em] font-black">The floor is now open for your questions.</p>
           <div className="h-2 w-64 bg-blue-600 mx-auto rounded-full"></div>
           <p className="text-lg md:text-2xl text-blue-500 font-mono tracking-widest uppercase font-black">ODIN Research Team | Bicol University Polangui</p>
         </div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 0.2 }} transition={{ delay: 2 }} className="flex gap-12 pt-12 border-t border-gray-900 w-full justify-center">
-           <div className="text-sm font-mono text-gray-600 uppercase font-black">ID: 2024-ODIN-TECH-DEFENSE</div>
+           <div className="text-sm font-mono text-gray-600 uppercase font-black">ID: 2025-ODIN-TECH-DEFENSE</div>
            <div className="text-sm font-mono text-gray-600 uppercase font-black">BSCS-POLANGUI-ACAD</div>
-           <div className="text-sm font-mono text-gray-600 uppercase font-black">© 2024 ALL RIGHTS RESERVED</div>
+           <div className="text-sm font-mono text-gray-600 uppercase font-black">© 2025 ALL RIGHTS RESERVED</div>
         </motion.div>
       </div>
     )
