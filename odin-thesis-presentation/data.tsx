@@ -340,7 +340,7 @@ export const slides: SlideData[] = [
         <div className="p-8 bg-blue-900/10 rounded-[35px] border-l-[10px] border-blue-500 space-y-6">
            <h5 className="text-white font-black uppercase text-xl">Feedback Mechanisms</h5>
            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-             Audio feedback via TTS and spatial cues remains predominant, while haptic vibration offers complementary information delivery that does not interfere with environmental audio cues (Bhatlawande et al., 2022).
+             Audio feedback via TTS and spatial cues remains predominant, while haptic vibration offers complementary information delivery that does not interfere with environmental audio cues (Bhatlawande et al.,).
            </p>
         </div>
         <div className="p-8 bg-emerald-900/10 rounded-[35px] border-l-[10px] border-emerald-500 space-y-6">
@@ -569,7 +569,7 @@ export const slides: SlideData[] = [
         </div>
         <div className="p-10 bg-blue-900/10 rounded-[40px] border border-blue-500/20 space-y-6 h-full flex flex-col justify-center">
            <p className="text-lg md:text-2xl text-gray-200 font-bold italic leading-relaxed">
-             "The descriptive component systematically documents and analyzes the navigation challenges faced by legally blind individuals, while the developmental aspect focuses on the iterative design, implementation, and refinement of the ODIN system based on user needs and feedback (Kumar, 2020)."
+             "The descriptive component systematically documents and analyzes the navigation challenges faced by legally blind individuals, while the developmental aspect focuses on the iterative design, implementation, and refinement of the ODIN system based on user needs and feedback (Kumar)."
            </p>
         </div>
       </div>
@@ -650,7 +650,7 @@ export const slides: SlideData[] = [
       <div className="space-y-8 max-w-7xl mx-auto h-full flex flex-col justify-center">
         <div className="p-10 bg-gray-900/60 border-l-[15px] border-[#D14D96] rounded-r-[50px] shadow-2xl">
            <p className="text-lg md:text-2xl text-white font-bold leading-relaxed">
-             "The study adopts the Rapid Application Development (RAD) methodology, emphasizing iterative development cycles, user involvement, and rapid prototyping (Dennis et al., 2015)."
+             "The study adopts the Rapid Application Development (RAD) methodology, emphasizing iterative development cycles, user involvement, and rapid prototyping (Dennis et al.)."
            </p>
         </div>
         <div className="p-8 bg-gray-900 border border-gray-800 rounded-[40px] text-center">
@@ -707,7 +707,7 @@ export const slides: SlideData[] = [
         <div className="p-8 bg-gray-900 border border-gray-800 rounded-[40px] space-y-4 shadow-2xl">
            <h5 className="text-white font-black uppercase text-xl border-b border-white/10 pb-2">Measurement Scale</h5>
            <p className="text-sm md:text-base text-gray-400 leading-relaxed font-medium">
-             Participants evaluate system characteristics using a structured 5-point Likert scale (Bhandari & Nikolopoulou, 2023).
+             Participants evaluate system characteristics using a structured 5-point Likert scale (Bhandari & Nikolopoulou).
            </p>
            <div className="bg-blue-900/10 p-4 rounded-xl border border-blue-500/20">
               <div className="flex justify-between text-xs md:text-sm text-blue-400 font-black mb-1"><span>4.21 - 5.00</span> <span>Strongly Agree</span></div>
