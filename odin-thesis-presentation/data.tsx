@@ -220,7 +220,7 @@ export const slides: SlideData[] = [
         <div className="p-10 bg-red-950/10 border-4 border-red-500/20 rounded-[45px] space-y-8 flex flex-col justify-center">
            <h6 className="text-red-400 font-black uppercase text-2xl border-b-2 border-red-500/30 pb-2">Environmental Limits</h6>
            <ul className="text-xl md:text-2xl text-gray-300 space-y-5 font-bold">
-              <li><span className="text-red-500 font-black text-3xl">✕</span> Reduced efficiency in rain/snow.</li>
+              <li><span className="text-red-500 font-black text-3xl">✕</span> Reduced efficiency in rain.</li>
               <li><span className="text-red-500 font-black text-3xl">✕</span> Poor lighting impacts AI accuracy.</li>
               <li><span className="text-red-500 font-black text-3xl">✕</span> High environmental noise masking.</li>
            </ul>
@@ -296,7 +296,7 @@ export const slides: SlideData[] = [
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto">
         <div className="space-y-6 p-8 bg-gray-900/60 rounded-[35px] border border-gray-800 flex flex-col justify-center h-full">
            <p className="text-xl md:text-2xl text-white font-bold italic leading-relaxed">
-             "Activity Theory emphasizes the dynamic relationship between individuals, tools, and their environment (Cook & Polgar, 2015), while the ICF model demonstrates that navigation challenges arise from interactions between limitations and environmental barriers (WHO, 2019)."
+             "Activity Theory emphasizes the dynamic relationship between individuals, tools, and their environment (Cook & Polgar), while the ICF model demonstrates that navigation challenges arise from interactions between limitations and environmental barriers (WHO)."
            </p>
         </div>
         <div className="p-10 bg-blue-950/20 rounded-[40px] border-l-[12px] border-blue-600 space-y-6 h-full flex flex-col justify-center">
@@ -359,17 +359,17 @@ export const slides: SlideData[] = [
     content: (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
          <div className="p-6 bg-gray-900 border-2 border-blue-500/20 rounded-[30px] shadow-xl">
-            <h5 className="text-blue-400 font-black uppercase text-sm mb-3">Rashid et al. (2022)</h5>
+            <h5 className="text-blue-400 font-black uppercase text-sm mb-3">Rashid et al.</h5>
             <p className="text-base text-gray-200 font-bold mb-2">DeepNAVI Assistant</p>
             <p className="text-sm text-gray-400">Achieved 89.7% accuracy in obstacle detection across diverse environments through model optimization, though battery limited operation to 3-4 hours.</p>
          </div>
          <div className="p-6 bg-gray-900 border-2 border-cyan-500/20 rounded-[30px] shadow-xl">
-            <h5 className="text-cyan-400 font-black uppercase text-sm mb-3">Mahmud et al. (2023)</h5>
+            <h5 className="text-cyan-400 font-black uppercase text-sm mb-3">Mahmud et al.</h5>
             <p className="text-base text-gray-200 font-bold mb-2">YOLOv5 Architecture</p>
             <p className="text-sm text-gray-400">Achieved 15-20 frames per second on smartphone hardware with a custom dataset of 50,000 images, resulting in 92.3% detection and 87.6% classification accuracy.</p>
          </div>
          <div className="p-6 bg-gray-900 border-2 border-emerald-500/20 rounded-[30px] shadow-xl">
-            <h5 className="text-emerald-400 font-black uppercase text-sm mb-3">Wang et al. (2019)</h5>
+            <h5 className="text-emerald-400 font-black uppercase text-sm mb-3">Wang et al.</h5>
             <p className="text-base text-gray-200 font-bold mb-2">Vision-Based Mobile</p>
             <p className="text-sm text-gray-400">Demonstrated 67% fewer errors and 43% reduced time compared to canes. Enabled real-time path planning, improving user confidence despite poor lighting.</p>
          </div>
@@ -383,17 +383,17 @@ export const slides: SlideData[] = [
     content: (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
          <div className="p-6 bg-gray-900 border border-blue-500/20 rounded-[30px] shadow-xl">
-            <h5 className="text-blue-400 font-black uppercase text-sm mb-3">Papadopoulos (2022)</h5>
+            <h5 className="text-blue-400 font-black uppercase text-sm mb-3">Papadopoulos</h5>
             <p className="text-base text-gray-200 font-bold mb-2">HC-SR04 Recognition</p>
             <p className="text-sm text-gray-400">Testing of 12 participants demonstrated 94.1% accuracy in obstacle detection within 4-meter range and false positive rates below 3.2%.</p>
          </div>
          <div className="p-6 bg-gray-900 border border-purple-500/20 rounded-[30px] shadow-xl">
-            <h5 className="text-purple-400 font-black uppercase text-sm mb-3">Kumar et al. (2018)</h5>
+            <h5 className="text-purple-400 font-black uppercase text-sm mb-3">Kumar et al.</h5>
             <p className="text-base text-gray-200 font-bold mb-2">Wearable Configurations</p>
             <p className="text-sm text-gray-400">Head-mounted configurations provided superior performance for overhead detection, though acceptance revealed preferences for less conspicuous mounting.</p>
          </div>
          <div className="p-6 bg-gray-900 border-4 border-emerald-500/30 rounded-[30px] shadow-xl">
-            <h5 className="text-emerald-400 font-black uppercase text-sm mb-3">Kalantri et al. (2025)</h5>
+            <h5 className="text-emerald-400 font-black uppercase text-sm mb-3">Kalantri et al.</h5>
             <p className="text-base text-gray-200 font-black mb-2">Fusion Breakthrough</p>
             <p className="text-sm text-gray-400">Demonstrated 96.2% obstacle detection accuracy by dynamically weighting camera and ultrasonic contributions based on environmental conditions.</p>
          </div>
@@ -590,7 +590,7 @@ export const slides: SlideData[] = [
         <div className="p-10 bg-gray-900/60 border-2 border-emerald-500/20 rounded-[45px] space-y-5 h-full flex flex-col justify-center overflow-hidden shadow-2xl">
            <h5 className="text-emerald-400 font-black uppercase text-2xl border-b border-emerald-500/20 pb-3 flex-none tracking-widest">Secondary Sources</h5>
            <p className="text-base md:text-lg text-gray-200 leading-relaxed font-bold">
-             Comprehensive literature reviews including Mahmud et al. (2023), Rahman et al. (2024), and Kalantri et al. (2025). Technical documentation from hardware/software specifications and established accessibility guidelines inform system design.
+             Comprehensive literature reviews including Mahmud et al., Rahman et al., and Kalantri et al.. Technical documentation from hardware/software specifications and established accessibility guidelines inform system design.
            </p>
         </div>
       </div>
