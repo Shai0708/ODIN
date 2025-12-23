@@ -9,33 +9,33 @@ const ConceptualFramework: React.FC = () => {
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center p-2 max-h-full">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 w-full max-w-7xl relative h-full max-h-[72vh]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 w-full max-w-7xl relative flex-1">
         {/* INPUT COLUMN */}
         <motion.div 
           variants={cardVariants}
-          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
+          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] h-full"
         >
-          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Input</h3>
-          <div className="flex-1 text-xs md:text-sm space-y-2 font-sans leading-relaxed overflow-y-auto custom-scrollbar pr-1">
-            <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-xs">Sensor Inputs</p>
-              <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
+          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5">Input</h3>
+          <div className="flex-1 text-xs md:text-sm space-y-3 font-sans leading-relaxed overflow-y-auto custom-scrollbar pr-1 flex flex-col justify-between">
+            <div className="bg-white/5 p-3 rounded-lg border border-white/5 flex-1 flex flex-col justify-center">
+              <p className="font-black text-blue-400 mb-1 uppercase tracking-tighter text-xs">Sensor Inputs</p>
+              <ul className="list-disc pl-4 space-y-1 text-gray-300">
                 <li>Smartphone Camera</li>
                 <li>Ultrasonic Sensors (HC-SR04 Array, BLE)</li>
                 <li>Integrated (GPS, Accel, Compass, Gyro)</li>
               </ul>
             </div>
-            <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-xs">User Inputs</p>
-              <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
+            <div className="bg-white/5 p-3 rounded-lg border border-white/5 flex-1 flex flex-col justify-center">
+              <p className="font-black text-blue-400 mb-1 uppercase tracking-tighter text-xs">User Inputs</p>
+              <ul className="list-disc pl-4 space-y-1 text-gray-300">
                 <li>Voice Commands / Requests</li>
                 <li>System Control & Settings</li>
                 <li>Gesture, Touch, Physical Manipulation</li>
               </ul>
             </div>
-            <div className="bg-white/5 p-2 rounded-lg border border-white/5">
-              <p className="font-black text-blue-400 mb-0.5 uppercase tracking-tighter text-xs">Context</p>
-              <ul className="list-disc pl-4 space-y-0.5 text-gray-300">
+            <div className="bg-white/5 p-3 rounded-lg border border-white/5 flex-1 flex flex-col justify-center">
+              <p className="font-black text-blue-400 mb-1 uppercase tracking-tighter text-xs">Context</p>
+              <ul className="list-disc pl-4 space-y-1 text-gray-300">
                 <li>Location, Environment, Weather, Acoustic</li>
               </ul>
             </div>
@@ -45,28 +45,28 @@ const ConceptualFramework: React.FC = () => {
         {/* PROCESS COLUMN */}
         <motion.div 
           variants={cardVariants}
-          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] overflow-hidden"
+          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] h-full"
         >
-          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5 flex-none">Process</h3>
-          <div className="flex-1 text-xs md:text-sm space-y-2 font-sans leading-relaxed overflow-y-auto custom-scrollbar pr-1">
-            <div className="text-center mb-1">
+          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5">Process</h3>
+          <div className="flex-1 text-xs md:text-sm font-sans leading-relaxed overflow-y-auto custom-scrollbar pr-1 flex flex-col justify-between">
+            <div className="text-center mb-2">
               <p className="font-black text-emerald-400 uppercase text-base md:text-lg">RAD Lifecycle</p>
             </div>
-            <ul className="space-y-1.5">
-              <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
-                <span className="font-black text-white block uppercase text-xs">Phase 1: Planning</span>
+            <ul className="space-y-3 flex-1 flex flex-col justify-around">
+              <li className="pl-3 border-l-2 border-emerald-500/50 py-2 bg-white/5 rounded-r-lg">
+                <span className="font-black text-white block uppercase text-xs mb-1">Phase 1: Planning</span>
                 <span className="text-gray-400">Stakeholder analysis and user needs.</span>
               </li>
-              <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
-                <span className="font-black text-white block uppercase text-xs">Phase 2: User Design</span>
+              <li className="pl-3 border-l-2 border-emerald-500/50 py-2 bg-white/5 rounded-r-lg">
+                <span className="font-black text-white block uppercase text-xs mb-1">Phase 2: User Design</span>
                 <span className="text-gray-400">Iterative prototyping and design sessions.</span>
               </li>
-              <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
-                <span className="font-black text-white block uppercase text-xs">Phase 3: Construction</span>
+              <li className="pl-3 border-l-2 border-emerald-500/50 py-2 bg-white/5 rounded-r-lg">
+                <span className="font-black text-white block uppercase text-xs mb-1">Phase 3: Construction</span>
                 <span className="text-gray-400">Sensor integration and algorithm build.</span>
               </li>
-              <li className="pl-3 border-l-2 border-emerald-500/50 py-1 bg-white/5 rounded-r-lg">
-                <span className="font-black text-white block uppercase text-[10px]">Phase 4: Cutover</span>
+              <li className="pl-3 border-l-2 border-emerald-500/50 py-2 bg-white/5 rounded-r-lg">
+                <span className="font-black text-white block uppercase text-xs mb-1">Phase 4: Cutover</span>
                 <span className="text-gray-400">Deployment, testing, and system transition.</span>
               </li>
             </ul>
@@ -76,19 +76,19 @@ const ConceptualFramework: React.FC = () => {
         {/* OUTPUT COLUMN */}
         <motion.div 
           variants={cardVariants}
-          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)]"
+          className="border-2 border-white/60 rounded-none p-3 bg-black/40 text-white flex flex-col gap-2 shadow-[4px_4px_0px_rgba(255,255,255,0.15)] h-full"
         >
-          <h3 className="text-base md:text-lg font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5">Output</h3>
+          <h3 className="text-lg md:text-xl font-black text-center uppercase tracking-[0.15em] border-b-2 border-white/20 pb-1.5">Output</h3>
           <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
             <motion.div 
               animate={{ scale: [1, 1.02, 1] }}
               transition={{ duration: 4, repeat: Infinity }}
               className="bg-blue-600/10 border border-blue-500/30 p-4 rounded-xl shadow-[0_0_20px_rgba(59,130,246,0.1)]"
             >
-              <p className="text-base md:text-lg font-black leading-tight uppercase text-blue-400">
+              <p className="text-lg md:text-xl font-black leading-tight uppercase text-blue-400">
                 ODIN Assistant
               </p>
-              <p className="text-[10px] md:text-xs text-gray-300 mt-2 font-medium">
+              <p className="text-xs md:text-sm text-gray-300 mt-2 font-medium">
                 Obstacle Detection and Intelligent Navigation Aid for Visually Impaired Individuals
               </p>
             </motion.div>
